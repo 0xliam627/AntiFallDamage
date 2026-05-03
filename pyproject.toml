@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.backends.legacy:build"
+
+[project]
+name = "anti-fall-damage"
+version = "1.0.0"
+description = "Prevents fall damage globally or per-player with permission-based controls."
+authors = [{ name = "harryitz" }]
+requires-python = ">=3.11"
+license = { file = "LICENSE" }
+readme = "README.md"
+
+[project.entry-points."endstone"]
+anti-fall-damage = "harryitz_antifalldamage:AntiFallDamage"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+harryitz_antifalldamage = ["config.yml"]

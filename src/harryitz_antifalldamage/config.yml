@@ -1,0 +1,9 @@
+# AntiFallDamage Configuration
+
+# Dimensions where fall damage is disabled for ALL players.
+# Remove a dimension from this list to allow fall damage there.
+# Valid values: overworld, nether, the_end
+dimensions:
+    - overworld
+    - nether
+    - the_end
