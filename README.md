@@ -34,7 +34,6 @@ dimensions:
 
 - Protect only the Overworld — remove `nether` and `the_end` from the list
 - Protect nowhere — set `dimensions: []`
-
 No additional dependencies are required.
 
 ## License
