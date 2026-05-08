@@ -3,6 +3,7 @@ from endstone.damage import DamageCause
 from endstone.event import EventHandler, ActorDamageEvent
 from endstone.plugin import Plugin
 
+
 _DIMENSION_MAP: dict[str, str] = {
     "overworld": "Overworld",
     "nether": "Nether",
